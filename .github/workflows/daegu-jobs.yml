@@ -1,0 +1,42 @@
+name: Daegu jobs cloud collector
+on:
+  schedule:
+    - cron: '17 22 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'daegu-jobs/collector.mjs'
+      - '.github/workflows/daegu-jobs.yml'
+permissions:
+  contents: write
+concurrency:
+  group: daegu-jobs-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright@1.56.1
+      - run: npx playwright install --with-deps chromium
+      - name: Collect verified public job fields
+        id: collect
+        continue-on-error: true
+        run: node daegu-jobs/collector.mjs
+      - name: Preserve collector result
+        if: always()
+        run: |
+          if [ -f daegu-jobs/data/jobs.json ]; then
+            git config user.name 'Daegu Jobs Collector'
+            git config user.email 'actions@users.noreply.github.com'
+            git add daegu-jobs/data/jobs.json
+            git diff --cached --quiet || git commit -m 'Update public Daegu job snapshot'
+            git push
+          fi
+      - name: Report failure
+        if: steps.collect.outcome == 'failure'
+        run: exit 1
