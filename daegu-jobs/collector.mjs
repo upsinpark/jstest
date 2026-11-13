@@ -49,7 +49,7 @@ try{
   const allowance=included&&separate?'수당 일부 포함·일부 별도':included?'수당 포함':separate?'수당 별도':'';
   const shift=/주당비|3교대|주[\s,.·]*(?:야|당)[\s,.·]*비/.test(text)?'주당비':/격일/.test(text+' '+fields['근무시간'])?'격일':'미확인';
   let conditionSection='';const requiredLines=[];
-  for(const line of lines){if(/^■/.test(line))conditionSection=line;if(/우대/.test(conditionSection))continue;if(/필수|선임\s*가능/.test(line)&&!/우대|이력서|기재|제출|@|지원|팩스/.test(line))requiredLines.push(line);}
+  for(const line of lines){if(/^■/.test(line))conditionSection=line;if(/우대/.test(conditionSection))continue;const clause=/우대\s*,/.test(line)?line.split(/우대\s*,/).slice(1).join(','):line;if(/필수|선임\s*가능/.test(clause)&&!/우대|이력서|기재|제출|@|지원|팩스/.test(clause))requiredLines.push(clause.trim());}
   const required=requiredLines.join(' / ');
   const old=existing.get(id)??{};
   updated.set(id,{...old,id,url:base+'&wr_id='+id,name:fields['단지명'],households:parseInt((fields['총세대수']??'').replaceAll(',',''))||null,company:fields['위탁사명']??'',address:(fields['주소']??'').replace(/^대구(?:광역시|시)?\s*/,''),status:fields['마감여부'],salary:payOptions.length>1&&!selectedPay?null:salary??old.salary??null,salaryLine:salary?salary+'만원'+(allowance?' / '+allowance:''):old.salaryLine??'급여 미확인',shift,required,experience:lines.filter(s=>/경력|유경험/.test(s)).join(' / ')||fields['경력']||'',workTime:workLines.filter(s=>/근무시간|근무형태|교대|격일|휴게|주간|야간|비번/.test(s)).join('\n')||fields['근무시간']||'',sourceDetails:lines.filter(s=>!/@|이메일|전화|팩스|연락처|근무시작|출근.?예정|입사.?예정|필수.?기재|제출|이력서|접수|방문|지원서|채용시|채용 시|\d{2,3}-\d{3,4}-\d{4}/.test(s)).join('\n'),payOptions,selectedRole:selectedPay?.role??'',multiRole:payOptions.length>1,lastVerified:now});
