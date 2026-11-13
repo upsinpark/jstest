@@ -36,16 +36,17 @@ try{
   if(!fields['단지명']||!fields['마감여부'])throw new Error('상세정보 누락: '+id);
   const text=fields['기타사항']??'', lines=text.split(/\n+/).map(s=>s.trim()).filter(Boolean);
   const relevant=lines.filter(s=>/급여|월급|수당|근무시간|휴게시간|경력|자격|선임|교대|격일|비번|주간|야간|소방|기계설비|전기기능사/.test(s)&&!/@|이메일|전화|팩스|연락처|근무시작|출근 예정/.test(s));
-  const salaryText=lines.find(s=>/급\s*여|월급여/.test(s))??'';
-  const won=salaryText.match(/([\d,]+)\s*원/), man=salaryText.match(/([\d,.]+)\s*만\s*원/);
-  const salary=won?Math.floor(Number(won[1].replaceAll(',',''))/10000):man?Math.floor(Number(man[1].replaceAll(',',''))):null;
+  const payLines=lines.filter(s=>/급\\s*여|월급/.test(s)&&/\\d{3}/.test(s));
+  const parsePay=s=>{const won=s.match(/([\\d,]+)\\s*원/),man=s.match(/([\\d,.]+)\\s*만(?:\\s*원)?/),symbol=s.match(/[₩\\\\]\\s*([\\d,]{6,})/);return man?Math.floor(Number(man[1].replaceAll(',',''))):won?Math.floor(Number(won[1].replaceAll(',',''))/10000):symbol?Math.floor(Number(symbol[1].replaceAll(',',''))/10000):null;};
+  const payOptions=payLines.map(line=>({description:line,salary:parsePay(line)})).filter(x=>x.salary);
+  const salary=payOptions.length===1?payOptions[0].salary:null;
   const related=lines.filter(s=>/수당|식대|상여|명절|휴가비|검침비/.test(s)).map(s=>s.replace(/연차(?:수당)?[^/\n,·]*|퇴직금[^/\n,·]*/g,''));
   const included=related.some(s=>/포함/.test(s)), separate=related.some(s=>/별도/.test(s));
   const allowance=included&&separate?'수당 일부 포함·일부 별도':included?'수당 포함':separate?'수당 별도':'';
   const shift=/주당비|3교대|주[\s,.·]*(?:야|당)[\s,.·]*비/.test(text)?'주당비':/격일/.test(text+' '+fields['근무시간'])?'격일':'미확인';
-  const required=lines.filter(s=>/필수|선임 가능|선임가능|자격요건|자격조건/.test(s)&&!/우대|이력서|기재|제출|@|지원|팩스/.test(s)).join(' / ');
+  const required=lines.filter(s=>/필수|선임\\s*가능|소방안전관리자.*(?:급|이상)/.test(s)&&!/우대|이력서|기재|제출|@|지원|팩스/.test(s)).join(' / ');
   const old=existing.get(id)??{};
-  updated.set(id,{...old,id,url:base+'&wr_id='+id,name:fields['단지명'],households:parseInt((fields['총세대수']??'').replaceAll(',',''))||null,company:fields['위탁사명']??'',address:(fields['주소']??'').replace(/^대구(?:광역시|시)?\s*/,''),status:fields['마감여부'],salary:salary??old.salary??null,salaryLine:salary?salary+'만원'+(allowance?' / '+allowance:''):old.salaryLine??'급여 미확인',shift,required:required||old.required||'',experience:lines.filter(s=>/경력|유경험/.test(s)).join(' / ')||fields['경력']||'',workTime:relevant.filter(s=>/근무시간|근무형태|교대|격일|휴게|주간|야간|비번/.test(s)).join('\n')||fields['근무시간']||'',sourceDetails:relevant.join('\n'),lastVerified:now});
+  updated.set(id,{...old,id,url:base+'&wr_id='+id,name:fields['단지명'],households:parseInt((fields['총세대수']??'').replaceAll(',',''))||null,company:fields['위탁사명']??'',address:(fields['주소']??'').replace(/^대구(?:광역시|시)?\s*/,''),status:fields['마감여부'],salary:salary??old.salary??null,salaryLine:salary?salary+'만원'+(allowance?' / '+allowance:''):old.salaryLine??'급여 미확인',shift,required:required||old.required||'',experience:lines.filter(s=>/경력|유경험/.test(s)).join(' / ')||fields['경력']||'',workTime:relevant.filter(s=>/근무시간|근무형태|교대|격일|휴게|주간|야간|비번/.test(s)).join('\n')||fields['근무시간']||'',sourceDetails:lines.filter(s=>!/@|이메일|전화|팩스|연락처|근무시작|출근.?예정|입사.?예정|필수.?기재|제출|이력서|접수|방문|지원서|채용시|채용 시|\\d{2,3}-\\d{3,4}-\\d{4}/.test(s)).join('\n'),payOptions,multiRole:payOptions.length>1,lastVerified:now});
  }
  const result={schemaVersion:1,lastAttempt:now,lastSuccess:now,status:'success',message:'클라우드 수집 성공',jobs:[...updated.values()].sort((a,b)=>b.id-a.id)};
  await fs.writeFile(dir+'/jobs.json',JSON.stringify(result,null,2));
