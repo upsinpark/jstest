@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-11-14T00:19:55.148Z",
+  "lastAttempt": "2026-11-14T00:20:46.919Z",
   "lastSuccess": "2026-11-14T00:19:55.148Z",
-  "status": "success",
-  "message": "클라우드 수집 성공",
+  "status": "failed",
+  "message": "채용사이트 접근 또는 상세정보 확인 실패. 마지막 성공 자료를 유지합니다.",
   "jobs": [
     {
       "id": 2837,
