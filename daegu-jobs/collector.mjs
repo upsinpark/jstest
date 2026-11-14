@@ -24,9 +24,13 @@ try{
   for(const item of items)found.set(item.id,item);
   if(items.some(i=>i.id<=2817))break;
  }
- const targets=new Set([...found.keys()].filter(id=>id>2830||existing.has(id)));
- for(const id of existing.keys())targets.add(id);
+ // Check closure labels on the listing only. Closed records are retained without revisiting details.
  const updated=new Map(existing);
+ const listedClosed=new Set([...found.values()].filter(item=>item.cells.some(cell=>/마감|채용완료/.test(cell))).map(item=>item.id));
+ let skippedClosed=0;
+ for(const id of listedClosed){if(existing.has(id))updated.set(id,{...existing.get(id),status:'마감',statusCheckedAt:now});skippedClosed++;}
+ const targets=new Set([...found.keys()].filter(id=>(id>2830||existing.has(id))&&!listedClosed.has(id)&&existing.get(id)?.status!=='마감'));
+ for(const [id,job] of existing)if(job.status!=='마감'&&!listedClosed.has(id))targets.add(id);
  for(const id of targets){
   await page.goto(base+'&wr_id='+id,{waitUntil:'domcontentloaded',timeout:45000});
   await page.locator('th').filter({hasText:/^단지명$/}).first().waitFor({timeout:25000});
@@ -34,6 +38,7 @@ try{
    const obj={};for(const r of rows){const cs=[...r.children];for(let i=0;i<cs.length;i++)if(cs[i].tagName==='TH'&&cs[i+1]?.tagName==='TD')obj[cs[i].innerText.trim()]=cs[i+1].innerText.trim();}return obj;
   });
   if(!fields['단지명']||!fields['마감여부'])throw new Error('상세정보 누락: '+id);
+  if(/마감|채용완료/.test(fields['마감여부'])){if(existing.has(id))updated.set(id,{...existing.get(id),status:'마감',statusCheckedAt:now});skippedClosed++;continue;}
   const text=fields['기타사항']??'', lines=text.split(/\n+/).map(s=>s.trim()).filter(Boolean);
   const relevant=lines.filter(s=>/급여|월급|수당|근무시간|휴게시간|경력|자격|선임|교대|격일|비번|주간|야간|소방|기계설비|전기기능사/.test(s)&&!/@|이메일|전화|팩스|연락처|근무시작|출근 예정/.test(s));
   const parsePay=s=>{const won=s.match(/([\d,]+)\s*원/),man=s.match(/([\d,.]+)\s*만(?:\s*원)?/),symbol=s.match(/[₩\\]\s*([\d,]{6,})/);return man?Math.floor(Number(man[1].replaceAll(',',''))):won?Math.floor(Number(won[1].replaceAll(',',''))/10000):symbol?Math.floor(Number(symbol[1].replaceAll(',',''))/10000):null;};
@@ -56,7 +61,7 @@ try{
  }
  const result={schemaVersion:1,lastAttempt:now,lastSuccess:now,status:'success',message:'클라우드 수집 성공',jobs:[...updated.values()].sort((a,b)=>b.id-a.id)};
  await fs.writeFile(dir+'/jobs.json',JSON.stringify(result,null,2));
- console.log(JSON.stringify({status:'success',checked:targets.size,total:result.jobs.length}));
+ console.log(JSON.stringify({status:'success',checked:targets.size,skippedClosed,total:result.jobs.length}));
 }catch(error){
  await fs.writeFile(dir+'/jobs.json',JSON.stringify({...previous,lastAttempt:now,status:'failed',message:'채용사이트 접근 또는 상세정보 확인 실패. 마지막 성공 자료를 유지합니다.'},null,2));
  console.error('수집 실패:',error.message);process.exitCode=1;
