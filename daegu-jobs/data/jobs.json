@@ -1,10 +1,62 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-11-20T01:16:04.323Z",
-  "lastSuccess": "2026-11-20T01:16:04.323Z",
+  "lastAttempt": "2026-11-21T00:48:15.575Z",
+  "lastSuccess": "2026-11-21T00:48:15.575Z",
   "status": "success",
   "message": "클라우드 수집 성공",
   "jobs": [
+    {
+      "id": 2863,
+      "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2863",
+      "name": "불로서한이다음",
+      "households": 299,
+      "company": "청하종합개발(주)",
+      "address": "동구 공항로 148",
+      "status": "채용중",
+      "salary": 327,
+      "salaryLine": "327만원",
+      "shift": "격일",
+      "required": "",
+      "experience": "- 합격(채용)후라도 제출된 서류나 경력 등이 허위(거짓)일 경우 입사를 취소함",
+      "workTime": "4. 근무시간 : 24시간 격일제 근무 (휴게시간 : 주간-3시간, 야간-4시간)",
+      "sourceDetails": "1. 단 지 명  :  불로서한이다음\n2. 구인직종 : 시설주임\n3. 급      여  : 3,270,600원 (연차, 퇴직 별도), 27년도 급여 인상 예정\n4. 근무시간 : 24시간 격일제 근무 (휴게시간 : 주간-3시간, 야간-4시간)\n7. 기타사항\n- 본 구인공고는 적격자 발생 시 조기 마감될 수 있음\n- 본 채용은 근로계약서 체결 후에 확정됨",
+      "payOptions": [
+        {
+          "description": "3. 급      여  : 3,270,600원 (연차, 퇴직 별도), 27년도 급여 인상 예정",
+          "salary": 327,
+          "role": ""
+        }
+      ],
+      "selectedRole": "",
+      "multiRole": false,
+      "lastVerified": "2026-11-21T00:48:15.575Z"
+    },
+    {
+      "id": 2862,
+      "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2862",
+      "name": "대실역리슈빌3단지",
+      "households": 597,
+      "company": "◈(주)한보주택관리◈",
+      "address": "달성군 다사읍 대실역남로 33",
+      "status": "채용중",
+      "salary": 350,
+      "salaryLine": "350만원 / 수당 별도",
+      "shift": "격일",
+      "required": "",
+      "experience": "",
+      "workTime": "- 근무형태 : 격일 24시간 근무 (주간 2시간, 야간 2.5시간 휴게)",
+      "sourceDetails": "1.구인인원 -기전주임 1명  (출근일 협의)\n2.근무조건 및 지원조건\n- 급여 : 3,500,000원 (연차/퇴직금 별도 , 검침수당 별도 지급)\n- 근무형태 : 격일 24시간 근무 (주간 2시간, 야간 2.5시간 휴게)\n- 출근일은 면접 시 협의\n(지원시 OOO아파트_구인직종 기재 필수)\n- 면접일자 및 시간은 개별통보함",
+      "payOptions": [
+        {
+          "description": "- 급여 : 3,500,000원 (연차/퇴직금 별도 , 검침수당 별도 지급)",
+          "salary": 350,
+          "role": ""
+        }
+      ],
+      "selectedRole": "",
+      "multiRole": false,
+      "lastVerified": "2026-11-21T00:48:15.575Z"
+    },
     {
       "id": 2860,
       "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2860",
@@ -29,7 +81,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2859,
@@ -55,7 +107,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2858,
@@ -81,7 +133,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2857,
@@ -107,7 +159,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2856,
@@ -133,7 +185,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2855,
@@ -159,7 +211,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2854,
@@ -185,7 +237,7 @@
       ],
       "selectedRole": "1. 채용분야 :  시설주임(기전주임)",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2853,
@@ -211,7 +263,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2852,
@@ -242,7 +294,7 @@
       ],
       "selectedRole": "",
       "multiRole": true,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2851,
@@ -268,7 +320,7 @@
       ],
       "selectedRole": "1. 채용분야 :  설비책임(영선계장)",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2850,
@@ -294,7 +346,7 @@
       ],
       "selectedRole": "1. 채용분야 : 시설주임 (전기1명)",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2849,
@@ -320,7 +372,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2848,
@@ -346,7 +398,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2847,
@@ -355,7 +407,7 @@
       "households": 1526,
       "company": "(주)맨투맨",
       "address": "서구 고성로 33",
-      "status": "채용중",
+      "status": "마감",
       "salary": 360,
       "salaryLine": "360만원 / 수당 일부 포함·일부 별도",
       "shift": "격일",
@@ -372,7 +424,8 @@
       ],
       "selectedRole": "2. 직책 및 인원 : 시설기사 – 00명",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-20T01:16:04.323Z",
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2846,
@@ -392,7 +445,7 @@
       "payOptions": [],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2845,
@@ -423,7 +476,7 @@
       ],
       "selectedRole": "",
       "multiRole": true,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2844,
@@ -449,7 +502,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2843,
@@ -476,7 +529,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-19T01:12:54.885Z",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2842,
@@ -503,7 +556,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-19T01:12:54.885Z",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2841,
@@ -529,7 +582,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2840,
@@ -555,7 +608,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-20T01:16:04.323Z"
+      "lastVerified": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2839,
@@ -582,7 +635,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-17T02:29:17.763Z",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2837,
@@ -609,7 +662,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-19T01:12:54.885Z",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2836,
@@ -626,7 +679,7 @@
       "experience": "2) 아파트 경력자 우대",
       "workTime": "3) 24시간 격일제 교대근무\n(09:00 ~ 익일 09:00 까지 /  휴게시간 주간 2.5시간, 야간 2.5시간)",
       "sourceDetails": "강창1차삼산타운\n시설주임 모집합니다.\n1. 아파트명 : 강창1차삼산타운 (721세대)\n2. 직책 및 인원 : 시설기사  1명\n3. 지원조건\n1) 관련 업무 자격증 보유자 우대\n2) 아파트 경력자 우대\n4. 급여 및 근무\n1) 시설기사 월 급여 : 3,433,780원 (기타수당 별도)\n2) 연차, 퇴직금 별도\n3) 24시간 격일제 교대근무\n(09:00 ~ 익일 09:00 까지 /  휴게시간 주간 2.5시간, 야간 2.5시간)\n7. 기타 사항\n2) 허위 사실이 확인될 경우 채용 후라도 무효 처리합니다.\n4) 소방 보조 선임 자격자 우대.\n(주)맨투맨",
-      "lastVerified": "2026-11-20T01:16:04.323Z",
+      "lastVerified": "2026-11-21T00:48:15.575Z",
       "payOptions": [
         {
           "description": "1) 시설기사 월 급여 : 3,433,780원 (기타수당 별도)",
@@ -667,7 +720,7 @@
       ],
       "multiRole": true,
       "selectedRole": "3. 채용분야 : 기전기사 1명",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2834,
@@ -694,7 +747,7 @@
       ],
       "multiRole": false,
       "selectedRole": "1. 채용분야 :  시설주임",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2833,
@@ -711,7 +764,7 @@
       "experience": "아파트 근무 경력자 및 관련 자격증 보유자를 우대합니다. / * 아파트 및 공동주택 관련 업무 경력자 우대",
       "workTime": "* 근무형태 : 24시간 격일제\n* 휴게시간 : 주간 1.5시간 야간 3.5시간",
       "sourceDetails": "(주)상일종합관리 「영남네오빌아트」 기전주임 모집\n영남네오빌아트에서 함께 근무하실 기전주임 (1명)을 모집합니다.\n아파트 근무 경력자 및 관련 자격증 보유자를 우대합니다.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n■ 모집분야\n기전주임 1명\n■ 근무조건\n* 급여 : 월 350만원 (※ 연차수당·퇴직금 별도)\n* 근무형태 : 24시간 격일제\n* 휴게시간 : 주간 1.5시간 야간 3.5시간\n■ 우대사항\n* 소방안전관리자 2급 소지자\n* 한글, 엑셀 등 프로그램 사용 가능자\n* 아파트 및 공동주택 관련 업무 경력자 우대\n* 성실하고 책임감 있게 장기근무 가능하신 분\n■ 지원방법\n* 「영남네오빌아트 / 기전주임 지원」 을 기재해 주세요.\n■ 채용안내\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n(주)상일종합관리와 함께할 성실하고 책임감 있는 인재를 기다립니다.",
-      "lastVerified": "2026-11-20T01:16:04.323Z",
+      "lastVerified": "2026-11-21T00:48:15.575Z",
       "payOptions": [
         {
           "description": "* 급여 : 월 350만원 (※ 연차수당·퇴직금 별도)",
@@ -737,7 +790,7 @@
       "experience": "아파트 근무 경력자 및 관련 자격증 보유자를 우대합니다. / * 아파트 및 공동주택 관련 업무 경력자 우대",
       "workTime": "* 근무형태 : 24시간 격일제 근무\n* 휴게시간 : 주간 2시간 / 야간 3시간",
       "sourceDetails": "(주)상일종합관리 「수성센트럴화성파크드림」 시설주임 모집\n수성센트럴화성파크드림에서 함께 근무하실 시설주임 (1명)을 모집합니다.\n아파트 근무 경력자 및 관련 자격증 보유자를 우대합니다.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n■ 모집분야\n시설주임 1명\n■ 근무조건\n* 급여 : 월 343만원 (※ 연차수당·퇴직금 별도)\n* 근무형태 : 24시간 격일제 근무\n* 휴게시간 : 주간 2시간 / 야간 3시간\n■ 우대사항\n* 아파트 및 공동주택 관련 업무 경력자 우대\n* 시설관리 관련 자격증 보유자 우대\n* 성실하고 책임감 있게 장기근무 가능하신 분\n■ 지원방법\n* 「수성센트럴화성파크드림 / 시설주임 지원」 을 기재해 주세요.\n■ 채용안내\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n(주)상일종합관리와 함께할 성실하고 책임감 있는 인재를 기다립니다.",
-      "lastVerified": "2026-11-20T01:16:04.323Z",
+      "lastVerified": "2026-11-21T00:48:15.575Z",
       "payOptions": [
         {
           "description": "* 급여 : 월 343만원 (※ 연차수당·퇴직금 별도)",
@@ -773,7 +826,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2830,
@@ -801,7 +854,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2829,
@@ -817,7 +870,7 @@
       "shift": "격일",
       "experience": "3. 자격요건 : 아파트 근무경력자 우대",
       "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2829",
-      "status": "채용중",
+      "status": "마감",
       "lastVerified": "2026-11-20T01:16:04.323Z",
       "sourceDetails": "근무처 : 혁신천년나무6단지 1028세대 지역난방 - 대주관리\n주  소 : 대구시 동구 과학로 23\n1. 채용분야 : 기전기사\n2. 근무시간 : 격일근무\n3. 자격요건 : 아파트 근무경력자 우대\n4.  월급여 : 333만원 (기타수당 포함)\n-연차,퇴직금,상여금 별도\n-허위사실 기재시 입사취소\n7. 문의 : 627-7716",
       "payOptions": [
@@ -828,7 +881,8 @@
         }
       ],
       "multiRole": false,
-      "selectedRole": "1. 채용분야 : 기전기사"
+      "selectedRole": "1. 채용분야 : 기전기사",
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2828,
@@ -856,7 +910,7 @@
       ],
       "multiRole": false,
       "selectedRole": "1. 채용분야 : 기전주임",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2827,
@@ -873,7 +927,7 @@
       "experience": "3. 자격요건   : 관련업계 유경험자 우대, 전기보조, 소방보조 선임 가능한 자",
       "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2827",
       "status": "채용중",
-      "lastVerified": "2026-11-20T01:16:04.323Z",
+      "lastVerified": "2026-11-21T00:48:15.575Z",
       "sourceDetails": "▣ 범어자이 기전구임 구인(대구 달서구 소재, 아파트 399세대(오피스텔 52세대))\n▶ 기전주임\n1. 채용인원   : 1명\n2. 근무시간   : 격일제 교대근무, 09:00~익일09:00(휴게  주간2시간, 야간3시간)\n3. 자격요건   : 관련업계 유경험자 우대, 전기보조, 소방보조 선임 가능한 자\n4. 월급여     : 337만원 (식대별도 / 연차, 퇴직금 별도)\n※문의사항은 메일로부탁드립니다.\n▶ 기타사항\n채용결정일로부터 14일 이내 반환청구가 가능하며, 별도의 반환요청이\n없는 경우 채용결정일로부터 30일 경과후 자체 폐기함.",
       "payOptions": [
         {
@@ -899,7 +953,7 @@
       "shift": "격일",
       "experience": "4. 경력관계: ﻿ 경력자(신축아파트 근무자 우대)",
       "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2826",
-      "status": "채용중",
+      "status": "마감",
       "lastVerified": "2026-11-20T01:16:04.323Z",
       "sourceDetails": "더샵디어엘로\n- 대구광역시 동구 화랑로 33\n- 1,190세대\n1. 구인직종 : 기전주임\n- 소방안전관리자 2급 자격증 필수\n2. 급여 : 3,425,040원\n* 연차, 퇴직금 별도 지급 / 소방안전보조관리자 수당 포함\n3. 근무시간 : 격일제 08:00 ~ 익일 08:00\n* 휴게시간 : 주간2시간, 야간 3.5시간\n4. 경력관계: ﻿ 경력자(신축아파트 근무자 우대)\n※ 단지소개 또는 특기사항\n- 허위사실 기재 시 채용 후에도 입사를 취소 함",
       "payOptions": [
@@ -910,7 +964,8 @@
         }
       ],
       "multiRole": false,
-      "selectedRole": ""
+      "selectedRole": "",
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2825,
@@ -927,7 +982,7 @@
       "experience": "아파트 근무 경력자 및 관련 자격증 보유자를 우대합니다. / * 아파트 및 건물 관련 업무 경력자 우대",
       "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2825",
       "status": "채용중",
-      "lastVerified": "2026-11-20T01:16:04.323Z",
+      "lastVerified": "2026-11-21T00:48:15.575Z",
       "sourceDetails": "(주)상일종합관리 「범어에일린의뜰」시설주임 모집\n범어에일린의뜰에서 함께 근무하실 시설주임 (1명)을 모집합니다.\n아파트 근무 경력자 및 관련 자격증 보유자를 우대합니다.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n■ 모집분야\n시설주임 1명\n■ 근무조건\n* 급여 : 월 340만원\n(※ 연차수당·퇴직금 별도 / 2027년 임금인상예정 / 명절, 휴가비 별도 / 매월 검침비, 커뮤니티관리수당 별도)\n* 근무형태 : 3교대(주, 야, 비), 토.일 2교대(주간근무시 휴무)\n주간:09시~18시\n야간:09시~익일09시\n비번:휴무\n* 휴게시간 : 주간 2시간 야간 1시간\n■ 우대사항\n* 아파트 및 건물 관련 업무 경력자 우대\n* 성실하고 책임감 있게 장기근무 가능하신 분\n■ 지원방법\n* 「범어에일린의뜰 / 시설주임 지원」 을 기재해 주세요.\n■ 채용안내\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n(주)상일종합관리와 함께할 성실하고 책임감 있는 인재를 기다립니다.",
       "payOptions": [
         {
@@ -965,7 +1020,7 @@
       ],
       "multiRole": false,
       "selectedRole": "1. 채용분야 : 기전주임",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2823,
@@ -993,7 +1048,7 @@
       ],
       "multiRole": false,
       "selectedRole": "2. 직책 및 인원 : 시설기사 - 1명",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2821,
@@ -1021,7 +1076,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2820,
@@ -1037,7 +1092,7 @@
       "shift": "격일",
       "experience": "무관",
       "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2820",
-      "status": "채용중",
+      "status": "마감",
       "lastVerified": "2026-11-20T01:16:04.323Z",
       "sourceDetails": "1. 구인직종 : 기전기사 1명\n2. 주소 : 대구광역시 남구 명덕로 200\n3. 세대수 : 1,758세대\n4. 급여 :3,230,170원(연차수당,퇴직금 별도)\n5. 근무시간 및 근로조건 :\n- (격일제 근무) 09시 ~ 익일 09시까지  (휴게시간 : 주간 2시간, 야간 4시간)\n-3인 1조 근무\n6. 자격조건\n- 소방안전보조관리자 선임 가능자\n11. 기타사항",
       "payOptions": [
@@ -1048,7 +1103,8 @@
         }
       ],
       "multiRole": false,
-      "selectedRole": ""
+      "selectedRole": "",
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2819,
@@ -1076,7 +1132,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     },
     {
       "id": 2817,
@@ -1104,7 +1160,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-20T01:16:04.323Z"
+      "statusCheckedAt": "2026-11-21T00:48:15.575Z"
     }
   ]
 }
