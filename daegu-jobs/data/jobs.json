@@ -1,10 +1,62 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-11-26T02:12:30.347Z",
-  "lastSuccess": "2026-11-26T02:12:30.347Z",
+  "lastAttempt": "2026-11-27T02:10:52.312Z",
+  "lastSuccess": "2026-11-27T02:10:52.312Z",
   "status": "success",
   "message": "클라우드 수집 성공",
   "jobs": [
+    {
+      "id": 2881,
+      "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2881",
+      "name": "범어태왕아너스",
+      "households": 299,
+      "company": "(주)한국티씨엠",
+      "address": "수성구 범어동",
+      "status": "채용중",
+      "salary": 3178310,
+      "salaryLine": "3178310만원",
+      "shift": "격일",
+      "required": "",
+      "experience": "경력",
+      "workTime": "1. 근무조건: 24시간 격일제 근무",
+      "sourceDetails": "범어태왕아너스 기전주임 모집공고\n1. 근무조건: 24시간 격일제 근무\n2. 급      여: 3,178,310만원(연차 전체 휴가 사용, 퇴직금 별도 지급)\n4. 12월 1일부터 근무가능 하신분 우대",
+      "payOptions": [
+        {
+          "description": "2. 급      여: 3,178,310만원(연차 전체 휴가 사용, 퇴직금 별도 지급)",
+          "salary": 3178310,
+          "role": ""
+        }
+      ],
+      "selectedRole": "",
+      "multiRole": false,
+      "lastVerified": "2026-11-27T02:10:52.312Z"
+    },
+    {
+      "id": 2880,
+      "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2880",
+      "name": "펜타힐즈더샵1차",
+      "households": 1696,
+      "company": "(주)굿모닝이엔씨",
+      "address": "경상북도 경산시 펜타힐즈2로 60(중산동)",
+      "status": "채용중",
+      "salary": 364,
+      "salaryLine": "364만원",
+      "shift": "격일",
+      "required": "",
+      "experience": "4. 경력관계 : 경력자 우대(초보자 가능)",
+      "workTime": "3. 근무시간 :  격일제 09:00 ~ 익일 09:00\n*휴게시간: 주간1시간 (12:30 ~ 13:00), (18:30 ~ 19:00) / 야간3시간 (03:00 ~ 06:00)",
+      "sourceDetails": "펜타힐즈더샵 1차\n- 경북 경산시 펜타힐즈2로 60 (중산동)\n- 1,696세대\n1. 구인직종 : 기전기사\n2. 급여 :  3,645,100원 (연차, 퇴직금 별도)\n3. 근무시간 :  격일제 09:00 ~ 익일 09:00\n*휴게시간: 주간1시간 (12:30 ~ 13:00), (18:30 ~ 19:00) / 야간3시간 (03:00 ~ 06:00)\n4. 경력관계 : 경력자 우대(초보자 가능)\n※ 단지소개 또는 특기사항\n- 허위사실 기재 시 채용 후에도 입사를 취소 함",
+      "payOptions": [
+        {
+          "description": "2. 급여 :  3,645,100원 (연차, 퇴직금 별도)",
+          "salary": 364,
+          "role": ""
+        }
+      ],
+      "selectedRole": "",
+      "multiRole": false,
+      "lastVerified": "2026-11-27T02:10:52.312Z"
+    },
     {
       "id": 2879,
       "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2879",
@@ -29,7 +81,7 @@
       ],
       "selectedRole": "▶ 채용분야 : 설비계장(1명)",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2878,
@@ -55,7 +107,7 @@
       ],
       "selectedRole": "2. 직책 및 인원 : 시설주임 - 1명",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2877,
@@ -81,7 +133,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2876,
@@ -107,7 +159,7 @@
       ],
       "selectedRole": "(이력서 상단 [단지명, 채용분야] 기재 必)",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2875,
@@ -116,7 +168,7 @@
       "households": 973,
       "company": "(주)한국티씨엠",
       "address": "경산시 정평동",
-      "status": "채용중",
+      "status": "마감",
       "salary": 333,
       "salaryLine": "333만원 / 수당 일부 포함·일부 별도",
       "shift": "격일",
@@ -133,7 +185,8 @@
       ],
       "selectedRole": "1. 채용분야 : 기전주임",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-26T02:12:30.347Z",
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2874,
@@ -159,7 +212,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2873,
@@ -185,7 +238,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2871,
@@ -211,7 +264,7 @@
       ],
       "selectedRole": "채용분야 : 시설주임(1명)",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2870,
@@ -237,7 +290,7 @@
       ],
       "selectedRole": "1. 채용분야  :  시설책임",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2869,
@@ -274,7 +327,7 @@
       "selectedRole": "",
       "multiRole": true,
       "lastVerified": "2026-11-25T03:02:42.080Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2868,
@@ -300,7 +353,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2867,
@@ -309,7 +362,7 @@
       "households": 345,
       "company": "【상일종합관리】",
       "address": "남구 대덕로 162",
-      "status": "채용중",
+      "status": "마감",
       "salary": 343,
       "salaryLine": "343만원 / 수당 포함",
       "shift": "격일",
@@ -326,7 +379,8 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-26T02:12:30.347Z",
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2866,
@@ -352,7 +406,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2863,
@@ -378,7 +432,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2862,
@@ -405,7 +459,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-24T04:26:03.515Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2860,
@@ -414,7 +468,7 @@
       "households": 174,
       "company": "(주)목성엔지니어링",
       "address": "동구 동부로 20",
-      "status": "채용중",
+      "status": "마감",
       "salary": 335,
       "salaryLine": "335만원",
       "shift": "격일",
@@ -431,7 +485,8 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-26T02:12:30.347Z",
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2859,
@@ -458,7 +513,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-25T03:02:42.080Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2858,
@@ -485,7 +540,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-24T04:26:03.515Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2857,
@@ -494,7 +549,7 @@
       "households": 403,
       "company": "(주)목성엔지니어링",
       "address": "동구 동촌로 260",
-      "status": "채용중",
+      "status": "마감",
       "salary": 327,
       "salaryLine": "327만원",
       "shift": "미확인",
@@ -511,7 +566,8 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-26T02:12:30.347Z",
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2856,
@@ -537,7 +593,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2855,
@@ -563,7 +619,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2854,
@@ -589,7 +645,7 @@
       ],
       "selectedRole": "1. 채용분야 :  시설주임(기전주임)",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2853,
@@ -616,7 +672,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-23T00:18:32.387Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2852,
@@ -647,7 +703,7 @@
       ],
       "selectedRole": "",
       "multiRole": true,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2851,
@@ -674,7 +730,7 @@
       "selectedRole": "1. 채용분야 :  설비책임(영선계장)",
       "multiRole": false,
       "lastVerified": "2026-11-24T04:26:03.515Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2850,
@@ -701,7 +757,7 @@
       "selectedRole": "1. 채용분야 : 시설주임 (전기1명)",
       "multiRole": false,
       "lastVerified": "2026-11-25T03:02:42.080Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2849,
@@ -727,7 +783,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2848,
@@ -754,7 +810,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-25T03:02:42.080Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2847,
@@ -781,7 +837,7 @@
       "selectedRole": "2. 직책 및 인원 : 시설기사 – 00명",
       "multiRole": false,
       "lastVerified": "2026-11-20T01:16:04.323Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2846,
@@ -801,7 +857,7 @@
       "payOptions": [],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2845,
@@ -833,7 +889,7 @@
       "selectedRole": "",
       "multiRole": true,
       "lastVerified": "2026-11-23T00:18:32.387Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2844,
@@ -859,7 +915,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2843,
@@ -886,7 +942,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-19T01:12:54.885Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2842,
@@ -913,7 +969,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-19T01:12:54.885Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2841,
@@ -939,7 +995,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2840,
@@ -965,7 +1021,7 @@
       ],
       "selectedRole": "",
       "multiRole": false,
-      "lastVerified": "2026-11-26T02:12:30.347Z"
+      "lastVerified": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2839,
@@ -992,7 +1048,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-17T02:29:17.763Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2837,
@@ -1019,7 +1075,7 @@
       "selectedRole": "",
       "multiRole": false,
       "lastVerified": "2026-11-19T01:12:54.885Z",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2836,
@@ -1036,7 +1092,7 @@
       "experience": "2) 아파트 경력자 우대",
       "workTime": "3) 24시간 격일제 교대근무\n(09:00 ~ 익일 09:00 까지 /  휴게시간 주간 2.5시간, 야간 2.5시간)",
       "sourceDetails": "강창1차삼산타운\n시설주임 모집합니다.\n1. 아파트명 : 강창1차삼산타운 (721세대)\n2. 직책 및 인원 : 시설기사  1명\n3. 지원조건\n1) 관련 업무 자격증 보유자 우대\n2) 아파트 경력자 우대\n4. 급여 및 근무\n1) 시설기사 월 급여 : 3,433,780원 (기타수당 별도)\n2) 연차, 퇴직금 별도\n3) 24시간 격일제 교대근무\n(09:00 ~ 익일 09:00 까지 /  휴게시간 주간 2.5시간, 야간 2.5시간)\n7. 기타 사항\n2) 허위 사실이 확인될 경우 채용 후라도 무효 처리합니다.\n4) 소방 보조 선임 자격자 우대.\n(주)맨투맨",
-      "lastVerified": "2026-11-26T02:12:30.347Z",
+      "lastVerified": "2026-11-27T02:10:52.312Z",
       "payOptions": [
         {
           "description": "1) 시설기사 월 급여 : 3,433,780원 (기타수당 별도)",
@@ -1077,7 +1133,7 @@
       ],
       "multiRole": true,
       "selectedRole": "3. 채용분야 : 기전기사 1명",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2834,
@@ -1104,7 +1160,7 @@
       ],
       "multiRole": false,
       "selectedRole": "1. 채용분야 :  시설주임",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2833,
@@ -1131,7 +1187,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2832,
@@ -1158,7 +1214,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2831,
@@ -1185,7 +1241,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2830,
@@ -1213,7 +1269,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2829,
@@ -1241,7 +1297,7 @@
       ],
       "multiRole": false,
       "selectedRole": "1. 채용분야 : 기전기사",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2828,
@@ -1269,7 +1325,7 @@
       ],
       "multiRole": false,
       "selectedRole": "1. 채용분야 : 기전주임",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2827,
@@ -1286,7 +1342,7 @@
       "experience": "3. 자격요건   : 관련업계 유경험자 우대, 전기보조, 소방보조 선임 가능한 자",
       "url": "https://www.dghma.org/pg/bbs/board.php?bo_table=recruit_new_3&wr_id=2827",
       "status": "채용중",
-      "lastVerified": "2026-11-26T02:12:30.347Z",
+      "lastVerified": "2026-11-27T02:10:52.312Z",
       "sourceDetails": "▣ 범어자이 기전구임 구인(대구 달서구 소재, 아파트 399세대(오피스텔 52세대))\n▶ 기전주임\n1. 채용인원   : 1명\n2. 근무시간   : 격일제 교대근무, 09:00~익일09:00(휴게  주간2시간, 야간3시간)\n3. 자격요건   : 관련업계 유경험자 우대, 전기보조, 소방보조 선임 가능한 자\n4. 월급여     : 337만원 (식대별도 / 연차, 퇴직금 별도)\n※문의사항은 메일로부탁드립니다.\n▶ 기타사항\n채용결정일로부터 14일 이내 반환청구가 가능하며, 별도의 반환요청이\n없는 경우 채용결정일로부터 30일 경과후 자체 폐기함.",
       "payOptions": [
         {
@@ -1324,7 +1380,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2825,
@@ -1352,7 +1408,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2824,
@@ -1380,7 +1436,7 @@
       ],
       "multiRole": false,
       "selectedRole": "1. 채용분야 : 기전주임",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2823,
@@ -1408,7 +1464,7 @@
       ],
       "multiRole": false,
       "selectedRole": "2. 직책 및 인원 : 시설기사 - 1명",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2821,
@@ -1436,7 +1492,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2820,
@@ -1464,7 +1520,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2819,
@@ -1492,7 +1548,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     },
     {
       "id": 2817,
@@ -1520,7 +1576,7 @@
       ],
       "multiRole": false,
       "selectedRole": "",
-      "statusCheckedAt": "2026-11-26T02:12:30.347Z"
+      "statusCheckedAt": "2026-11-27T02:10:52.312Z"
     }
   ]
 }
